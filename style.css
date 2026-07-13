@@ -11,3 +11,8 @@
   margin-top: 0;
   margin-bottom: 4px;
 }
+
+/* Underline helper for specific names */
+.underline {
+  text-decoration: underline;
+}
