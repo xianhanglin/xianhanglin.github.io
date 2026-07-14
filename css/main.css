@@ -1,0 +1,135 @@
+body {
+  margin: 60px auto;
+  width: 80%;
+  color: #333;
+}
+
+nav ul,
+footer ul {
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0;
+  list-style: none;
+  font-weight: bold;
+}
+
+nav ul li,
+footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #3065a3;
+  font-family: "Times New Roman", Times, serif;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.nav-text {
+  color: #333;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 1.8em;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.1em;
+  color: #333;
+}
+
+.section-note {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+  color: #333;
+}
+
+.year-label {
+  font-family: "Times New Roman", Times, serif;
+  color: #37759c;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+table.pubs {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+  font-size: 17px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  border: none;
+  margin-bottom: 2em;
+}
+
+table.pubs td {
+  border: 1px solid #333;
+  vertical-align: middle;
+}
+
+table.pubs td.year-cell,
+table.pubs td.no-border {
+  border: none;
+}
+
+table.pubs td.pub-info {
+  padding: 10px;
+}
+
+table.pubs td.pub-thumb {
+  width: 212px;
+  padding: 3px;
+}
+
+table.pubs img {
+  display: block;
+  width: 212px;
+  height: 90px;
+  object-fit: cover;
+  border: 0;
+  vertical-align: middle;
+  background: #e8e8e8;
+}
+
+u,
+.underline {
+  text-decoration: underline;
+}
+
+.list-block {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+  margin-bottom: 18px;
+}
+
+.list-block .item-title {
+  font-weight: bold;
+  margin: 0 0 4px;
+}
+
+.list-block p {
+  margin: 0 0 4px;
+  font-size: 1em;
+  line-height: 1.35em;
+}
+
+footer {
+  border-top: 1px solid #d5d5d5;
+  font-size: 0.8em;
+  margin-top: 40px;
+  padding-top: 12px;
+  font-family: "Times New Roman", Times, serif;
+}
